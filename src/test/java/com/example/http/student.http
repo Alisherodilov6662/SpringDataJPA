@@ -1,0 +1,17 @@
+### create
+POST localhost:8080/student
+Content-Type: application/json
+
+{"name": "Abdurasul",
+"surname": "Odilov",
+"phone": "+99899366666",
+  "age": "19",
+  "level": "FIRST",
+  "gender": "GIRL"
+}
+
+### delete
+
+DELETE localhost:8080/student/1
+
+
